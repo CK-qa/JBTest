@@ -1,4 +1,4 @@
-package package_uno;
+package main_package;
 
 class Class2 {
     private int it;
