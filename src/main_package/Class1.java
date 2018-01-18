@@ -2,6 +2,7 @@ package main_package;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 public class Class1 extends Class2  {
 
@@ -9,11 +10,17 @@ public class Class1 extends Class2  {
         super(i);
     }
 
+
     public static void main(String[] args) {
         for (int i = 0; i < 3; i++) {
             System.out.println(i + " " + str());
         }
         foo();
+    }
+
+    @Override
+    public String toString() {
+        return "Class1{}";
     }
 
     public int iii(int o) {
@@ -24,9 +31,6 @@ public class Class1 extends Class2  {
         return p;
     }
 
-    private String string = "Lalala";
-
-
     private static void foo() {
         List<String> list = new ArrayList<>();
         for (int i = 0; i < 10; i++) {
@@ -34,4 +38,5 @@ public class Class1 extends Class2  {
         }
         System.out.println(list);
     }
+
 }
