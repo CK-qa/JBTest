@@ -11,4 +11,5 @@ public class TestBug {
     public static void main(String[] args) {
         doStr();
     }
+
 }
