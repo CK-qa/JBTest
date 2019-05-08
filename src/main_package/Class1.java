@@ -19,4 +19,6 @@ public class Class1 extends Class2 {
     public int i(int p) {
         return p;
     }
+
+    //test
 }
