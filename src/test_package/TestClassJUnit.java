@@ -17,6 +17,7 @@ public class TestClassJUnit {
     @Test
     public void jUnitTestNegative() {
         System.out.println("Test Junit");
+
         Assert.assertThat("Not ok", "String", containsString("String1"));
     }
 }
