@@ -12,4 +12,15 @@ public class Class1 extends Class2 {
         super(i);
     }
 
+    public int iii(int o) {
+        return o;
+    }
+
+    public int i(int p) {
+        return p;
+    }
+
+    //test22
+
+
 }
