@@ -12,4 +12,6 @@ public class TestBug {
         doStr();
     }
 
+    //qwerty
+
 }
